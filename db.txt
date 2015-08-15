@@ -1,0 +1,7 @@
+create database product_auth;
+use product_auth;
+create table addproduct(product_id varchar(50),product_name varchar(50),
+product_cost double,
+manufacturer varchar(50),
+production_date date,
+warranty_period varchar(20));
